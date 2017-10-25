@@ -6,6 +6,7 @@ export const NavigationWrapper = glamorous.div(
     {
         zIndex: 2,
         position: 'fixed',
+        top: 0,
         display: 'flex',
         width: '100%',
         background: 'white',

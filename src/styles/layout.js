@@ -7,4 +7,10 @@ export const page = {
         height: 80,
         logoPagging: 10,
     },
+    section: {
+        topPadding: {
+            desktop: 60,
+            mobile: 30,
+        },
+    },
 }

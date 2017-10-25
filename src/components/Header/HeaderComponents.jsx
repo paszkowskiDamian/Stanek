@@ -2,14 +2,14 @@ import React from 'react'
 import glamorous from 'glamorous'
 import { Link } from 'react-scroll'
 
-import { mediaQueries } from '../../styles'
+import { mediaQueries, page } from '../../styles'
 
 import image from '../../assets/jpg/header.jpg'
 
 export const HeaderImage = glamorous.header({
     background: `url(${image})`,
     position: 'relative',
-    top: 70,
+    marginTop: page.navigation.height,
     height: 800,
     backgroundPosition: 'top',
     backgroundRepeat: 'no-repeat',
